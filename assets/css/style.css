@@ -90,7 +90,7 @@ nav .nav-actions button img {
 nav > button {
   display: none;
 }
-@media (max-width: 360px) {
+@media (max-width: 834px) {
   nav {
     padding: 0 20px;
   }
@@ -147,7 +147,7 @@ nav > button {
   border-style: none;
   gap: 10px;
 }
-@media (max-width: 360px) {
+@media (max-width: 834px) {
   .hero {
     flex-direction: column;
     justify-content: center;
@@ -215,7 +215,7 @@ nav > button {
   color: #7eb693;
   margin-bottom: 10px;
 }
-@media (max-width: 360px) {
+@media (max-width: 834px) {
   .offer-banner {
     gap: 20px;
     flex-direction: column;
@@ -305,7 +305,7 @@ nav > button {
   align-items: center;
   gap: 8px;
 }
-@media (max-width: 360px) {
+@media (max-width: 834px) {
   .about-us-container > img {
     display: none;
   }
@@ -426,11 +426,17 @@ nav > button {
   .our-products {
     padding: 0 20px;
   }
-  .our-products-cards-container {
+  .our-products .our-products-cards-container {
     flex-direction: column;
     align-items: center;
   }
 }
+@media (min-width: 361px) and (max-width: 834px) {
+  .our-products .our-products-cards-container {
+    justify-content: center;
+  }
+}
+/* ! offers-section */
 .offers {
   margin-top: 100px;
   padding: 50px 50px;
@@ -481,13 +487,31 @@ nav > button {
     gap: 30px;
   }
 }
+@media (min-width: 361px) and (max-width: 834px) {
+  .offers {
+    padding: 20px;
+    text-align: center;
+  }
+  .offers .offers-header {
+    text-align: center;
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .offers .offers-body {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+/* ! econis-section */
+
 .econis-container {
   margin-top: 100px;
   display: flex;
   align-items: center;
   position: relative;
 }
-/* ! econis-section */
 .econis-container .econis-content {
   display: flex;
   flex-direction: column;
@@ -527,7 +551,7 @@ nav > button {
   font-size: 20px;
   color: #274c5b;
 }
-@media (max-width: 360px) {
+@media (max-width: 834px) {
   .econis-container {
     flex-direction: column;
     justify-content: center;
@@ -579,7 +603,7 @@ nav > button {
   transform: translate(-50%, -50%);
   display: flex;
 }
-@media (max-width: 360px) {
+@media (max-width: 834px) {
   .our-gallery {
     flex-direction: column;
     align-items: center;
@@ -624,7 +648,7 @@ nav > button {
   font-weight: 700;
   font-size: 20px;
 }
-@media (max-width: 360px) {
+@media (max-width: 834px) {
   .subscribe-container {
     flex-direction: column;
     height: 500px;
@@ -750,7 +774,7 @@ nav > button {
 .footer .footer-bottom p span {
   font-weight: 700;
 }
-@media (max-width: 360px) {
+@media (max-width: 834px) {
   .footer .footer-body {
     flex-direction: column;
     align-items: center;
