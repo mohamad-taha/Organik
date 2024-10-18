@@ -90,7 +90,7 @@ nav .nav-actions button img {
 nav > button {
   display: none;
 }
-@media (max-width: 834px) {
+@media (max-width: 884px) {
   nav {
     padding: 0 20px;
   }
@@ -118,7 +118,7 @@ nav > button {
   color: #274c5b;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .hero p {
     font-size: 50px;
   }
@@ -183,7 +183,7 @@ nav > button {
   background-color: #f9f8f8;
   padding: 0;
 }
-@media (max-width: 834px) {
+@media (max-width: 884px) {
   .why-us {
     flex-direction: column;
     padding: 0;
@@ -250,14 +250,14 @@ nav > button {
   font-size: 25px;
   color: #274c5b;
 }
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .trust-us {
     flex-direction: column;
     align-items: center;
     gap: 30px;
   }
 }
-@media (min-width:361px) and (max-width: 834px) {
+@media (min-width:431px) and (max-width: 884px) {
 .trust-us{
   justify-content: center;
   flex-wrap: wrap;
@@ -339,7 +339,7 @@ nav > button {
   display: flex;
   align-items: center;
 }
-@media (max-width: 834px) {
+@media (max-width: 884px) {
   .our-team {
     padding: 0;
   }
@@ -402,13 +402,13 @@ nav > button {
   font-size: 25px;
   color: white;
 }
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .offers-for-you .cards {
     flex-direction: column;
     gap: 30px;
   }
 }
-@media (min-width: 361px) and (max-width:834px)  {
+@media (min-width: 431px) and (max-width:884px)  {
   .offers-for-you .cards {
   justify-content: center;
   flex-wrap: wrap;
@@ -453,7 +453,7 @@ nav > button {
   font-weight: 700;
   font-size: 20px;
 }
-@media (max-width: 834px) {
+@media (max-width: 884px) {
   .subscribe-container {
     flex-direction: column;
     height: 500px;
@@ -579,7 +579,7 @@ nav > button {
 .footer .footer-bottom p span {
   font-weight: 700;
 }
-@media (max-width: 834px) {
+@media (max-width: 884px) {
   .footer .footer-body {
     flex-direction: column;
     align-items: center;
