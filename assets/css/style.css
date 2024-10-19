@@ -91,6 +91,9 @@ nav > button {
   display: none;
 }
 @media (max-width: 884px) {
+  body{
+    overflow-x: hidden;
+  }
   nav {
     padding: 0 20px;
   }
