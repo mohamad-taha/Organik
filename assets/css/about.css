@@ -408,6 +408,7 @@ nav > button {
 @media (max-width: 430px) {
   .offers-for-you .cards {
     flex-direction: column;
+    align-items: center;
     gap: 30px;
   }
   .offers-for-you .cards .card div img{
