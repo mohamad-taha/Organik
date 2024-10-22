@@ -351,6 +351,7 @@ nav > button {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100%;
   }
   .our-team .our-team-header p {
     width: 300px;
