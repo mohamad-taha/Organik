@@ -91,9 +91,6 @@ nav > button {
   display: none;
 }
 @media (max-width: 884px) {
-  body{
-    overflow-x: hidden;
-  }
   nav {
     padding: 0 20px;
   }
@@ -163,10 +160,11 @@ nav > button {
     align-items: center;
     text-align: center;
     margin-left: 0;
+    width: 100%;
   }
   .hero .hero-content h2 {
     font-size: 30px;
-    width: 50%;
+    width: 60%;
   }
 }
 /* offer-section */
@@ -560,6 +558,9 @@ nav > button {
     justify-content: center;
     text-align: center;
   }
+  .econis-container > img {
+    width: 100%;
+  }
   .econis-container .econis-content {
     margin: 0 20px;
     left: 0px;
@@ -567,6 +568,7 @@ nav > button {
     align-items: center;
     padding-left: 0;
     text-align: center;
+    position: static;
   }
   .econis-container .econis-content > div div {
     margin-top: 20px;
@@ -797,5 +799,8 @@ nav > button {
     width: 300px;
     height: 100px;
     margin-top: 50px;
+  }
+  .footer .footer-bottom p{
+    width: 100%;
   }
 }
